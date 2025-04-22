@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+*{
+    font-family: poppins;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+span{
+    font-family: kalam;
+    font-weight: inherit;
+    
+}
+#hero-btn{
+    padding:10px 15px ;
+    border:1px solid #60a5fa;
+   
+}
+#hero-btn2{
+    padding:10px 15px ;
+    border:1px solid #60a5fa;
+   
+}
+.mb-21{
+    margin-bottom: 200px;
+}
+.blueShadow{
+    box-shadow: 6px 6px 0 0 #60a5fa;
+    transition: all 0.7s;
+}
+.blueShadow:hover{
+    transform: translate(5px ,5px );
+    box-shadow: 3px 3px 0 0 #60a5fa;
+}
+.pad40{
+    padding:40px 0;
+}
+.pad20{
+    padding:12px
+}
+.col-wrap{
+    display: flex;
+    flex-direction: column;
+}
+.pad-20{
+    padding:8px 0px ;
+}
+.padX-20{
+    padding:0px 8px ;
+}
+.p-2{
+    padding:8px;
+    text-transform: uppercase;
+}
+.mt-2{
+    margin-top: 0.5em;
+}
+.mt-20{
+    margin-top:20px;
+}
+.padX-10{
+    padding:40px 0;
+}
+.padX-110{
+    padding:10px 0;
+}
+
+@media (max-width:640px){
+    .mb-110{
+        margin-bottom:25px;
+    }
+}
